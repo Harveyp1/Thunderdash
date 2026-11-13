@@ -4,8 +4,6 @@ A free live battle dashboard for War Thunder. Put it on your second monitor and 
 cockpit-style view of every battle: tanks, planes, helicopters and ships.
 
 Download (GitHub): https://github.com/Harveyp1/Thunderdash/releases/latest
-- Windows: https://github.com/Harveyp1/Thunderdash/releases/download/v1.0.3/ThunderDash-Setup-1.0.3.exe
-- Linux:   https://github.com/Harveyp1/Thunderdash/releases/download/v1.0.3/ThunderDash-1.0.3-linux-x86_64.AppImage
 
 
 ## Install
