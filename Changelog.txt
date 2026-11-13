@@ -1,0 +1,37 @@
+# ThunderDash — Changelog
+
+### V1.0.3 Stable — Naval update
+
+- **Naval battle support** — ThunderDash now recognises naval matches and shows a dedicated naval layout instead of empty tank or aircraft gauges. The title bar shows the ship you are in.
+- **Helm panel** — Speed in knots and km/h, heading, course and a compass strip, all worked out from your position on the map. Also shows how many enemies and allies are currently seen.
+- **On fire alert** — When the battle log says someone set you on fire, the Helm panel shows an "ON FIRE" banner with who did it for 30 seconds. A "HEAVY DAMAGE" banner appears when you are severely damaged.
+- **Gunnery panel** — Your ship's guns are loaded from the game files (main, secondary and AA). Pick a shell to see its max range, drawn as a dashed ring on the map.
+- **Sight setting in metres** — For each map target and spotted enemy, the Gunnery panel shows the sight range to set, the shell flight time and how far to aim left or right. Calculated with air drag from the game's own shell data.
+- **Enemy lead** — Enemy speed and course are worked out from how they move on the map. The sight setting allows for where the ship will be when the shell lands.
+- **Contacts panel** — Every spotted enemy ship with range and bearing, plus range, bearing and arrival time to the capture point.
+- **Your battle panel** — Kills, fires set, crits and ships sunk, plus a running "sunk this battle" list. Your own lines are highlighted.
+- **Your track** — A faint line on the map shows where you have sailed. It resets when you respawn.
+- **Ship map icons** — Battleships, heavy cruisers and other ship classes get their own icons. The hundreds of naval spawn points no longer clutter the map.
+- **Naval kill feed and scoreboard** — "Set afire", "severely damaged" and "critically damaged" lines are now counted, not just kills.
+- **Stays live when sunk** — The dashboard no longer drops back to Standby when your ship is sunk mid-battle.
+- **Tank fire solution in metres** — The tank panel now leads with SET SIGHT in metres, the way tank sights work in game. Mils have been removed.
+- **Linux build** — The AppImage is now on the same version as Windows.
+
+### V1.0.2 Stable
+
+- **Optional auto-updates** — ThunderDash checks for a new version and offers it. Nothing installs until you click.
+- **Signed releases** — Every release is signed. The app deletes any update download that isn't signed with the official key, so a tampered or fake installer is never run.
+- **HTTPS first** — The update check tries HTTPS first and only falls back to HTTP if needed. Signing keeps the fallback safe.
+- **Linux version** — First Linux release as an AppImage.
+- **Smaller installer** — The Windows installer drops to about 97 MB. All app code is bundled and minified.
+
+### V1.0.1 and earlier
+
+- **Live battle dashboard** — Goes live on its own when a battle starts, reading the data War Thunder serves at localhost:8111.
+- **Ground panels** — Crew and damage, drive (speed, gear, RPM, cruise, stabilizer, ready rack) and a fire solution with range, turn from hull, elevation and flight time for your shell.
+- **Air panels** — Attitude indicator, flight parameters, missile range rings (head-on, fleeing, seeker lock, minimum range) and a bomb drop helper on the map.
+- **Helicopter panels** — Rotor and engine readouts.
+- **Tactical map** — Grid, range rings, follow-me mode and target markers.
+- **Kill feed, comms, objectives and scoreboard** — All live from the battle.
+- **Mod manager** — Drop a zip or folder and ThunderDash detects the mod type and installs it in the right place. Search WT Live from the app, group your library by nation and check for updates.
+- **Game config editor** — Change game settings without editing config.blk by hand. Profiles, automatic backups, and saving only while the game is closed.
