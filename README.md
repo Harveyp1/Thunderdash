@@ -1,107 +1,119 @@
-# ThunderDash v1.0.3
+# ⚡ ThunderDash — Live Battle Dashboard for War Thunder
 
-A free live battle dashboard for War Thunder. Put it on your second monitor and get a
-cockpit-style view of every battle: tanks, planes, helicopters and ships.
+<p align="center">
+  <img src="http://www.warthundermodmanager.com/dl/thunderdash-cover.png" alt="ThunderDash" width="900">
+</p>
 
-Download (GitHub): https://github.com/Harveyp1/Thunderdash/releases/latest
+<p align="center">
+  <a href="https://github.com/Harveyp1/Thunderdash/releases/latest"><b>⬇️ DOWNLOAD THE LATEST VERSION</b></a>
+</p>
 
+---
 
-## Install
+## 📥 Download
 
-**Windows**
-1. Download `ThunderDash-Setup-1.0.3.exe` and run it.
-2. Pick an install folder (or keep the default) and finish the installer.
-3. Start ThunderDash from the Start menu or the desktop shortcut.
+Get the newest version from the [latest release](https://github.com/Harveyp1/Thunderdash/releases/latest):
 
-Windows may show a SmartScreen warning the first time because the app is new.
-Click "More info" and then "Run anyway".
+- 🪟 **Windows 10 / 11:** `ThunderDash-Setup-x.y.z.exe`
+- 🐧 **Linux (x86_64):** `ThunderDash-x.y.z-linux-x86_64.AppImage`
 
-**Linux**
-1. Download `ThunderDash-1.0.3-linux-x86_64.AppImage`.
-2. Make it executable: `chmod +x ThunderDash-1.0.3-linux-x86_64.AppImage`
-3. Run it: `./ThunderDash-1.0.3-linux-x86_64.AppImage`
+What changed in each version is written on the [Releases](https://github.com/Harveyp1/Thunderdash/releases) page.
 
+---
 
-## Use
+<p align="center">
+  <img src="http://www.warthundermodmanager.com/dl/thunderdash-naval-dashboard.png" alt="Naval dashboard" width="900">
+</p>
 
-1. Start War Thunder.
-2. Join a battle (any mode: ground, air, helicopter or naval).
-3. ThunderDash switches from STANDBY to LIVE on its own and shows the right panels
-   for your vehicle.
+## What is ThunderDash?
 
-That's it. There is nothing to set up in the game.
+ThunderDash is a free desktop companion for War Thunder. It turns the game's live battle data into a clean, cockpit-style dashboard for your second monitor. Tanks, planes, helicopters and ships. Start a battle and it goes live on its own: no setup, no accounts.
 
+---
 
-## What's in it
+**✨ Key Features**
 
-**Naval (new in 1.0.3)**
-- Helm: speed (knots and km/h), heading, course, compass strip
-- ON FIRE alert, with who set you on fire
-- Gunnery: sight range in metres, shell flight time and lead for moving ships
-- Contacts: range and bearing to spotted enemy ships and the capture point
-- Your battle: kills, fires set, crits, ships sunk, and everything sunk this battle
-- Naval map icons, kill feed and scoreboard
+🛡️ **Ground fire solution**
+Mark a target on the map and get the range, the sight setting in metres, how far to turn from your hull, plus elevation and flight time for your shell (low and high arc).
 
-**Ground**
-- Fire solution: mark a target on the map, get range, sight setting, turn from hull,
-  elevation and flight time for your shell
-- Crew, engine, tracks, gun, gear, RPM, stabilizer and ready rack
+🔧 **Crew & damage**
+Crew, engine, transmission, tracks, gun, gear, RPM, cruise, stabilizer and ready rack at a glance.
 
-**Air and helicopters**
-- Attitude, TAS, Mach, AoA, G-load, throttle
-- Missile range rings (head-on, fleeing, seeker lock, minimum range)
-- Bomb drop point and fall time on the map
-- Rotor and engine readouts for helicopters
+✈️ **Flight panel**
+Attitude indicator, TAS, Mach, AoA, G-load, throttle and thrust.
 
-**Everywhere**
-- Live tactical map with grid, range rings, follow-me mode and target markers
-- Kill feed, team and all chat, objectives, scoreboard
+🚀 **Missile range**
+Head-on max, fleeing max, seeker lock and minimum range for your missile, drawn as rings on the map.
 
-**Mods and game settings**
-- Drop a mod zip or folder: ThunderDash detects the type (skin, sight, mission,
-  sound mod, hangar) and installs it in the right place. Nothing in a mod is ever run.
-- Search WT Live from the app, sort your library by nation, check mods for updates
-- Edit game settings without touching config.blk by hand, with profiles and
-  automatic backups. Settings are only saved while the game is closed.
+💣 **Bomb drop helper**
+Where your bomb will land and how long it will fall, shown on the map.
 
+🚁 **Helicopters**
+Rotor and engine readouts.
 
-## Good to know
+⚓ **Naval bridge**
+Speed in knots, heading and course, an on-fire and heavy-damage alert, and range and bearing to every spotted enemy ship. Your ship's guns come from the game files: pick a shell to see its max range on the map and get the sight setting in metres, flight time and lead for each target.
 
-- The dashboard reads the data War Thunder serves on your own PC at
-  http://127.0.0.1:8111 (the game's browser map). It does not read game memory and
-  does not inject anything into the game.
-- In Realistic battles the game only shares enemies your team has spotted, so
-  ThunderDash only shows those too.
-- Gunnery, fire solution and bomb numbers are estimates calculated from the game's own
-  data. Use them as a starting point.
+🗺️ **Tactical map**
+Big live map with grid, range rings, follow-me mode and target markers.
 
+💬 **Kill feed, chat & scoreboard**
+Live kill feed, team and all chat, objectives and a full scoreboard.
 
-## Troubleshooting
+📦 **Mod manager**
+Drop a mod zip or folder and ThunderDash works out what it is (skin, sight, mission, sound mod, hangar) and where it goes. Sort your library by nation and check your mods for updates. Nothing in a mod is ever run.
 
-**It stays on STANDBY in a battle**
-- Make sure the game is running on the same PC.
-- Open http://127.0.0.1:8111 in your browser during a battle. If the map doesn't load
-  there, the game isn't sharing data yet. Restart the game and try again.
-- Check that your firewall or antivirus isn't blocking ThunderDash.
+🔎 **Find mods**
+Search WT Live from its own page inside the app: by mod type, tag and author, sorted by rating, date or downloads. Star your favourite authors and browse all their mods at once. Download shows what is inside a mod before anything is installed.
 
-**Mods tab can't find my game**
-- Click "Change" next to "War Thunder folder" and pick your game folder
-  (for Steam, usually `...\steamapps\common\War Thunder`).
+⚙️ **Game config**
+Change your game settings without editing `config.blk` by hand. Save profiles (Modded, Vanilla, Squad night...), automatic backups, and it only saves while the game is closed.
 
-**Game config won't save**
-- Close War Thunder first. ThunderDash only writes config.blk while the game is closed.
+---
 
+**📸 Screenshots**
 
-## Uninstall
+<p align="center">
+  <img src="http://www.warthundermodmanager.com/dl/thunderdash-naval-gunnery.png" alt="Naval gunnery" width="430">
+  <img src="http://www.warthundermodmanager.com/dl/thunderdash-tank-fire-solution.png" alt="Tank fire solution" width="430">
+</p>
+<p align="center">
+  <img src="http://www.warthundermodmanager.com/dl/thunderdash-air-missile-range.png" alt="Air missile range" width="430">
+  <img src="http://www.warthundermodmanager.com/dl/thunderdash-mod-finder.png" alt="Mod finder" width="430">
+</p>
+<p align="center">
+  <img src="http://www.warthundermodmanager.com/dl/thunderdash-game-config.png" alt="Game config" width="870">
+</p>
 
-Windows: Settings > Apps > ThunderDash > Uninstall.
-Linux: delete the AppImage file.
+---
 
+**🛠️ How to start**
+1. Download and run the installer (Windows) or the AppImage (Linux, `chmod +x` first)
+2. Launch War Thunder and join a battle
+3. Open ThunderDash on your second monitor and watch it go live
 
-## Feedback
+Windows may show a SmartScreen warning the first time because the app is new. Click **More info** → **Run anyway**.
 
-Found a bug or have an idea? Leave a comment on the ThunderDash post on WT Live.
-Please say which vehicle, mode and map you were playing.
+---
 
-ThunderDash is a fan-made tool and is not affiliated with or endorsed by Gaijin
-Entertainment. War Thunder is a trademark of Gaijin Entertainment.
+**⬆️ Updates**
+ThunderDash checks this page's Releases for a new version and offers it at the top of the window. Nothing installs until you click, and every release is signed: the app deletes any download that isn't signed with the official key.
+
+---
+
+**🔒 Is it safe?**
+The dashboard only reads the data War Thunder itself serves on your own PC at `http://127.0.0.1:8111` (the game's browser map). It does not read game memory and does not inject anything into the game. In Realistic battles it only knows about enemies your team has spotted, just like the in-game map.
+
+Gunnery, fire solution and bomb numbers are estimates calculated from the game's own data. A starting point, not an aimbot.
+
+---
+
+**💻 Requirements**
+Windows 10 / 11 or Linux x86_64 · War Thunder installed
+
+**🔗 Find us on**
+[WT Live](https://live.warthunder.com/) · [warthundermodmanager.com](http://www.warthundermodmanager.com/)
+
+---
+
+<sub>ThunderDash is a fan-made tool and is not affiliated with or endorsed by Gaijin Entertainment. War Thunder is a trademark of Gaijin Entertainment.</sub>
