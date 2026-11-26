@@ -21,10 +21,6 @@ What changed in each version is written on the [Releases](https://github.com/Har
 
 ---
 
-<p align="center">
-  <img src="http://www.warthundermodmanager.com/dl/thunderdash-naval-dashboard.png" alt="Naval dashboard" width="900">
-</p>
-
 ## What is ThunderDash?
 
 ThunderDash is a free desktop companion for War Thunder. It turns the game's live battle data into a clean, cockpit-style dashboard for your second monitor. Tanks, planes, helicopters and ships. Start a battle and it goes live on its own: no setup, no accounts.
@@ -33,29 +29,20 @@ ThunderDash is a free desktop companion for War Thunder. It turns the game's liv
 
 **✨ Key Features**
 
-🛡️ **Ground fire solution**
-Mark a target on the map and get the range, the sight setting in metres, how far to turn from your hull, plus elevation and flight time for your shell (low and high arc).
-
 🔧 **Crew & damage**
 Crew, engine, transmission, tracks, gun, gear, RPM, cruise, stabilizer and ready rack at a glance.
 
 ✈️ **Flight panel**
 Attitude indicator, TAS, Mach, AoA, G-load, throttle and thrust.
 
-🚀 **Missile range**
-Head-on max, fleeing max, seeker lock and minimum range for your missile, drawn as rings on the map.
-
-💣 **Bomb drop helper**
-Where your bomb will land and how long it will fall, shown on the map.
-
 🚁 **Helicopters**
 Rotor and engine readouts.
 
 ⚓ **Naval bridge**
-Speed in knots, heading and course, an on-fire and heavy-damage alert, and range and bearing to every spotted enemy ship. Your ship's guns come from the game files: pick a shell to see its max range on the map and get the sight setting in metres, flight time and lead for each target.
+Your speed in knots, heading and course, an on-fire and heavy-damage alert, the capture points, and your kills, fires set and ships sunk from the battle log.
 
 🗺️ **Tactical map**
-Big live map with grid, range rings, follow-me mode and target markers.
+Big live map with grid, zoom, follow-me mode and your own markers. It shows the same units as the in-game map.
 
 💬 **Kill feed, chat & scoreboard**
 Live kill feed, team and all chat, objectives and a full scoreboard.
@@ -74,12 +61,7 @@ Change your game settings without editing `config.blk` by hand. Save profiles (M
 **📸 Screenshots**
 
 <p align="center">
-  <img src="http://www.warthundermodmanager.com/dl/thunderdash-naval-gunnery.png" alt="Naval gunnery" width="430">
-  <img src="http://www.warthundermodmanager.com/dl/thunderdash-tank-fire-solution.png" alt="Tank fire solution" width="430">
-</p>
-<p align="center">
-  <img src="http://www.warthundermodmanager.com/dl/thunderdash-air-missile-range.png" alt="Air missile range" width="430">
-  <img src="http://www.warthundermodmanager.com/dl/thunderdash-mod-finder.png" alt="Mod finder" width="430">
+  <img src="http://www.warthundermodmanager.com/dl/thunderdash-mod-finder.png" alt="Mod finder" width="870">
 </p>
 <p align="center">
   <img src="http://www.warthundermodmanager.com/dl/thunderdash-game-config.png" alt="Game config" width="870">
@@ -104,7 +86,7 @@ ThunderDash checks this page's Releases for a new version and offers it at the t
 **🔒 Is it safe?**
 The dashboard only reads the data War Thunder itself serves on your own PC at `http://127.0.0.1:8111` (the game's browser map). It does not read game memory and does not inject anything into the game. In Realistic battles it only knows about enemies your team has spotted, just like the in-game map.
 
-Gunnery, fire solution and bomb numbers are estimates calculated from the game's own data. A starting point, not an aimbot.
+**No aiming help.** ThunderDash shows what the game reports and nothing more. It does not calculate ranges, sight settings, lead or weapon ranges, and it does not measure distances to enemies or to points on the map.
 
 ---
 
