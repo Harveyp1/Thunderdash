@@ -1,7 +1,7 @@
 # ⚡ ThunderDash — Live Battle Dashboard for War Thunder
 
 <p align="center">
-  <img src="http://www.warthundermodmanager.com/dl/thunderdash-cover.png" alt="ThunderDash" width="900">
+  <img src="images/dashboard-tank.png" alt="ThunderDash showing a live ground battle" width="900">
 </p>
 
 <p align="center">
@@ -60,11 +60,34 @@ Change your game settings without editing `config.blk` by hand. Save profiles (M
 
 **📸 Screenshots**
 
+**Aircraft**: Flight panel with attitude, speed, Mach, G-load, fuel and the live map.
+
 <p align="center">
-  <img src="http://www.warthundermodmanager.com/dl/thunderdash-mod-finder.png" alt="Mod finder" width="870">
+  <img src="images/dashboard-aircraft.png" alt="Aircraft" width="870">
 </p>
+
+**Helicopter**: Rotor and engine readouts for both engines.
+
 <p align="center">
-  <img src="http://www.warthundermodmanager.com/dl/thunderdash-game-config.png" alt="Game config" width="870">
+  <img src="images/dashboard-helicopter.png" alt="Helicopter" width="870">
+</p>
+
+**Naval**: Helm, capture points and your own battle log.
+
+<p align="center">
+  <img src="images/dashboard-naval.png" alt="Naval" width="870">
+</p>
+
+**Scoreboard**: Kills, fires, crits and deaths for every player, built from the battle log.
+
+<p align="center">
+  <img src="images/scoreboard.png" alt="Scoreboard" width="870">
+</p>
+
+**Game config**: Change game settings, switch profiles and keep automatic backups.
+
+<p align="center">
+  <img src="images/game-config.png" alt="Game config" width="870">
 </p>
 
 ---
